@@ -1,0 +1,3137 @@
+=== Loading BnrCtlDotNet40MeiReserved ===
+Total Types in Assembly: 1084
+
+Type: vc.cppcli.attributes.?A0x75aba712.CppInlineNamespaceAttribute (6 methods)
+   Methods: ['Equals', 'GetHashCode', 'Match', 'IsDefaultAttribute', 'GetType', 'ToString']
+
+Type: Mei.Bnr.CashUnit.DepositCounters (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.CashUnit.DispenseCounters (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.CashUnit.ExtendedCounters (5 methods)
+   Methods: ['Clone', 'Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.CashUnit.CashType (5 methods)
+   Methods: ['Clone', 'ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.CashUnit.Threshold (5 methods)
+   Methods: ['Clone', 'ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.CashUnit.PhysicalCashUnit (5 methods)
+   Methods: ['Clone', 'ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.CashUnit.LogicalCashUnit (5 methods)
+   Methods: ['Clone', 'ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.CashUnit.CashUnit (7 methods)
+   Methods: ['Clone', 'Initialize', 'Initialize', 'Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.SessionStatus (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.EuroArt6Capability (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.PositionCapabilities (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Capabilities (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.XfsDenominationInfo (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.BillRoutingTable (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.SystemUseHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.SystemOpeningDetails (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.SystemRestartHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.MainModuleSectionCounters (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.IncidentStartSectionCounters (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.PerSectionFailureHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.SystemFailureHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.CashTypeDispenseHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.CashTypeAcceptanceHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.BillDispenseHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.TransportRejectDetails (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.InsertionRejectDetails (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.InletAcceptanceHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.ExtractionRejectDetails (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.LoaderRecognitionRejectDetails (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.LoaderSlotAcceptanceHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.LoaderAcceptanceHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.RecyclerCashTypeHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.RecyclerAcceptanceHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.BillAcceptanceHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.RecyclerReplenishHistoryItem (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.RecyclerReplenishHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.ReplenishHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.BnrSerialNrList (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.SystemConfiguration (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.ConfigOption (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: XfsCdrPosition (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: XfsCdrShutterStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _EXCEPTION_DISPOSITION (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _SID_NAME_USE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _ACL_INFORMATION_CLASS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _AUDIT_EVENT_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _ACCESS_REASON_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _SECURITY_IMPERSONATION_LEVEL (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _TOKEN_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _TOKEN_ELEVATION_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _TOKEN_INFORMATION_CLASS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _MANDATORY_LEVEL (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _SE_IMAGE_SIGNATURE_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _SE_LEARNING_MODE_DATA_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _HARDWARE_COUNTER_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _PROCESS_MITIGATION_POLICY (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _JOBOBJECT_RATE_CONTROL_TOLERANCE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _JOBOBJECT_RATE_CONTROL_TOLERANCE_INTERVAL (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: JOB_OBJECT_NET_RATE_CONTROL_FLAGS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: JOB_OBJECT_IO_RATE_CONTROL_FLAGS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: JOBOBJECT_IO_ATTRIBUTION_CONTROL_FLAGS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _JOBOBJECTINFOCLASS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _SERVERSILO_STATE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _FIRMWARE_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _LOGICAL_PROCESSOR_RELATIONSHIP (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _PROCESSOR_CACHE_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _CPU_SET_INFORMATION_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: MEM_EXTENDED_PARAMETER_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: MEM_SECTION_EXTENDED_PARAMETER_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _SharedVirtualDiskSupportType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _SharedVirtualDiskHandleState (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _SYSTEM_POWER_STATE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _DEVICE_POWER_STATE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _MONITOR_DISPLAY_STATE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _USER_ACTIVITY_PRESENCE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _POWER_REQUEST_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _POWER_MONITOR_REQUEST_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _POWER_PLATFORM_ROLE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _HIBERFILE_BUCKET_SIZE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: IMAGE_AUX_SYMBOL_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: IMPORT_OBJECT_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: IMPORT_OBJECT_NAME_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: ReplacesCorHdrNumericDefines (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _RTL_UMS_THREAD_INFO_CLASS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _RTL_UMS_SCHEDULER_REASON (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _OS_DEPLOYEMENT_STATE_VALUES (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _IMAGE_POLICY_ENTRY_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _IMAGE_POLICY_ID (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _HEAP_INFORMATION_CLASS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _ACTIVATION_CONTEXT_INFO_CLASS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _CM_SERVICE_NODE_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _CM_SERVICE_LOAD_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _CM_ERROR_CONTROL_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _TAPE_DRIVE_PROBLEM_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _TRANSACTION_OUTCOME (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _TRANSACTION_STATE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _TRANSACTION_INFORMATION_CLASS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _TRANSACTIONMANAGER_INFORMATION_CLASS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _RESOURCEMANAGER_INFORMATION_CLASS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _ENLISTMENT_INFORMATION_CLASS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _KTMOBJECT_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _TP_CALLBACK_PRIORITY (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: DPI_AWARENESS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: DPI_HOSTING_BEHAVIOR (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _FINDEX_INFO_LEVELS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _FINDEX_SEARCH_OPS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _READ_DIRECTORY_NOTIFY_INFORMATION_CLASS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _GET_FILEEX_INFO_LEVELS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _FILE_INFO_BY_HANDLE_CLASS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STREAM_INFO_LEVELS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _THREAD_INFORMATION_CLASS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _PROCESS_INFORMATION_CLASS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _PROCESS_MEMORY_EXHAUSTION_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _COMPUTER_NAME_FORMAT (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _MEMORY_RESOURCE_NOTIFICATION_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: OFFER_PRIORITY (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: WIN32_MEMORY_INFORMATION_CLASS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _DEP_SYSTEM_POLICY_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _PROC_THREAD_ATTRIBUTE_NUM (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _COPYFILE2_MESSAGE_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _COPYFILE2_MESSAGE_ACTION (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _COPYFILE2_COPY_PHASE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _PRIORITY_HINT (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _FILE_ID_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: DISPLAYCONFIG_TOPOLOGY_ID (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _DISPLAYCONFIG_COLOR_ENCODING (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: DIALOG_DPI_CHANGE_BEHAVIORS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagPOINTER_INPUT_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagPOINTER_BUTTON_CHANGE_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagFEEDBACK_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagHANDEDNESS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagPOINTER_DEVICE_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagPOINTER_DEVICE_CURSOR_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagINPUT_MESSAGE_DEVICE_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagINPUT_MESSAGE_ORIGIN_ID (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagAR_STATE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: ORIENTATION_PREFERENCE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SYSNLS_FUNCTION (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SYSGEOTYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SYSGEOCLASS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _NORM_FORM (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _RPC_HTTP_REDIRECTOR_STAGE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: RPC_ADDRESS_CHANGE_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _LRPC_SYSTEM_HANDLE_MARSHAL_DIRECTION (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: RpcProxyPerfCounters (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _RPC_NOTIFICATION_TYPES (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _RPC_ASYNC_EVENT (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagExtendedErrorParamTypes (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagRpcLocalAddressFormat (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagRpcCallType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagRpcCallClientLocality (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _RPC_NOTIFICATIONS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: ASSOCCLASS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SHSTOCKICONID (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: CertKeyType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _USER_MARSHAL_CB_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _IDL_CS_CONVERT (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _system_handle_t (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagMEMCTX (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagCLSCTX (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagMSHLFLAGS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagMSHCTX (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagDVASPECT (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagSTGC (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagSTGMOVE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagSTATFLAG (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: VARENUM (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagTYSPEC (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_MEDIA_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_BUS_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_QUERY_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_SET_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_PROPERTY_ID (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_PORT_CODE_SET (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_IDENTIFIER_CODE_SET (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_IDENTIFIER_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_ID_NAA_FORMAT (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_ASSOCIATION_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_RPMB_FRAME_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_CRYPTO_ALGORITHM_ID (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_CRYPTO_KEY_SIZE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_TIER_MEDIA_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_TIER_CLASS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_PROTOCOL_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_PROTOCOL_NVME_DATA_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_PROTOCOL_ATA_DATA_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_PROTOCOL_UFS_DATA_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_DEVICE_FORM_FACTOR (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_COMPONENT_HEALTH_STATUS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_DISK_HEALTH_STATUS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_DISK_OPERATIONAL_STATUS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_OPERATIONAL_STATUS_REASON (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_ZONED_DEVICE_TYPES (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_ZONE_TYPES (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_ZONES_ATTRIBUTES (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_ZONE_CONDITION (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_DIAGNOSTIC_LEVEL (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_DIAGNOSTIC_TARGET_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _WRITE_CACHE_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _WRITE_CACHE_ENABLE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _WRITE_CACHE_CHANGE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _WRITE_THROUGH (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _DEVICEDUMP_COLLECTION_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_POWERUP_REASON_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_DEVICE_POWER_CAP_UNITS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_RPMB_COMMAND_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_COUNTER_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_ATTRIBUTE_MGMT_ACTION (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _SCM_REGION_FLAG (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _SCM_PD_QUERY_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _SCM_PD_PROPERTY_ID (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _SCM_PD_HEALTH_STATUS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _SCM_PD_OPERATIONAL_STATUS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _SCM_PD_OPERATIONAL_STATUS_REASON (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _SCM_PD_MEDIA_REINITIALIZATION_STATUS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _MEDIA_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _PARTITION_STYLE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _DETECTION_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _BIN_TYPES (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _ELEMENT_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _CHANGER_DEVICE_PROBLEM_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _SHRINK_VOLUME_REQUEST_TYPES (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _CSV_CONTROL_OP (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _CSVFS_DISK_CONNECTIVITY (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _STORAGE_RESERVE_ID (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _QUERY_FILE_LAYOUT_FILTER_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _FILE_STORAGE_TIER_MEDIA_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _FILE_STORAGE_TIER_CLASS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _REFS_SMR_VOLUME_GC_STATE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _REFS_SMR_VOLUME_GC_ACTION (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _REFS_SMR_VOLUME_GC_METHOD (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _VIRTUAL_STORAGE_BEHAVIOR_CODE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _PRINTER_OPTION_FLAGS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagREGCLS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagCOINITBASE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagACTIVATIONTYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagEXTCONN (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagSTGTY (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagSTREAM_SEEK (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagLOCKTYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagEOLE_AUTHENTICATION_CAPABILITIES (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagRPCOPT_PROPERTIES (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagRPCOPT_SERVER_LOCALITY_VALUES (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagGLOBALOPT_PROPERTIES (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagGLOBALOPT_EH_VALUES (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagGLOBALOPT_RPCTP_VALUES (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagGLOBALOPT_RO_FLAGS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagGLOBALOPT_UNMARSHALING_POLICY_VALUES (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagDCOM_CALL_STATE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _APTTYPEQUALIFIER (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _APTTYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _THDTYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: CO_MARSHALING_CONTEXT_ATTRIBUTES (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagSTDMSHLFLAGS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagCOWAIT_FLAGS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: CWMO_FLAGS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: AgileReferenceOptions (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagBIND_FLAGS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagMKSYS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagMKREDUCE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagADVF (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagTYMED (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagDATADIR (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagCALLTYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagSERVERCALL (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagPENDINGTYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagPENDINGMSG (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagApplicationType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagShutdownType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagSF_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagTYPEKIND (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagCALLCONV (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagFUNCKIND (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagINVOKEKIND (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagVARKIND (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagTYPEFLAGS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagFUNCFLAGS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagVARFLAGS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagDESCKIND (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagSYSKIND (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagLIBFLAGS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagCHANGEKIND (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagCOINIT (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagCOMSD (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagDISCARDCACHE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagOLEGETMONIKER (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagOLEWHICHMK (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagUSERCLASSTYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagOLEMISC (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagOLECLOSE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagOLERENDER (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagOLEUPDATE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagOLELINKBIND (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagBINDSPEED (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagOLECONTF (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagOLEVERBATTRIB (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagDOMNodeType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagXMLEMEM_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: IEObjectType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL_IMonikerProp_0001 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL_IBindStatusCallback_0001 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL_IBindStatusCallback_0002 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL_IBindStatusCallback_0003 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL_IBindStatusCallback_0004 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL_IBindStatusCallback_0005 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL_IBindStatusCallback_0006 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagBINDSTATUS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL_IBindStatusCallbackEx_0001 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL_IAuthenticateEx_0001 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL_ICodeInstall_0001 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL_IUri_0001 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL_IUri_0002 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagBINDSTRING (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _tagPI_FLAGS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _tagOIBDG_FLAGS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _tagPARSEACTION (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _tagPSUACTION (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _tagQUERYOPTION (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _tagINTERNETFEATURELIST (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL_IInternetSecurityManager_0001 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL_IInternetSecurityManager_0002 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL_IInternetSecurityManager_0003 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagURLZONE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagURLTEMPLATE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL_IInternetZoneManager_0001 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL_IInternetZoneManager_0002 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _URLZONEREG (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL_IGetBindHandle_0001 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: PIDMSI_STATUS_VALUE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: tagREGKIND (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _SC_ACTION_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _SC_STATUS_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _SC_ENUM_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _SC_EVENT_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SERVICE_REGISTRY_STATE_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SERVICE_DIRECTORY_TYPE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: ClassType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: XfsThresholdStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: BillStorageStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: BnfGateErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: BnfGateFunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: BunchNoteFeederFunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: BundlerErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: BundlerFunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: BundlerDivSystemFunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: BundlerDivSystemErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: CashboxStackHeightFunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: CashboxStackHeightErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: CoverFunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SensorFunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SensorErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: DiverterFunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: DiverterErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: DoubleBillDetectorErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: DoubleBillDetectorFunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: FlapErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: FlapFunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: RecognitionSensorErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: LoaderFunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: LoaderStackHeightFunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: MainModuleErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: ModuleErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: MotorFunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: MotorErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: OperationalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: CashTypeStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: PositionerFunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: PositionerErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: PlatformErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: PlatformFunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: PressurePlateErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: PressurePlateFunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: RecyclerFunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: StackerFunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: StackerErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: TapePositionFunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: TapePositionErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: TrailingEdgeTachFunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SecondaryRecognitionSensorErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SpineInterfaceDiverterFunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SpineInterfaceDiverterErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: MaintenanceStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: MaintenanceReason (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SecuredCommLevel (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SecurityLevel (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: ThresholdMode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: XfsCdrContentStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: ReplenishMode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: TransactionType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: BillTransportStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: BillTransportSection (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: ComponentStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: BillRoutingOption (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SelfTestMode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: AntiFishingLevel (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: ReportingMode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SystemOperationalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SystemErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SystemCashTypeStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SystemBillStorageStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: BnrType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: CashboxCapacity (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: CashboxType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SmartSpineActivation (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: XfsCashInTransactionStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: RecognitionResult (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SequenceRejectionCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: BnrUsbDeviceStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: PreventativeMaintenanceLevel (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: HistoryReportReason (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: ResetReasonType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: LogCategory (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.CashUnit.CashUnitStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.CashUnit.CashUnitKind (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.CashUnit.CashUnitType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.CashUnit.ThresholdStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.CashUnit.ThresholdMode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: ExtendedCounters (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: XfsCashType (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: XfsThreshold (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: XfsPhysicalCashUnit (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: XfsLogicalCashUnit (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: XfsCashUnit (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: AlgorithmResult (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: AlgorithmType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: BillRecognitionStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SizeCheckAlgoResult (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.OperationId (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.IntermediateEvents (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.StatusChanged (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.DeviceStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.DeviceContentStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.DispenserStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.IntermediateStackerStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.SafeDoorStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.ShutterStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.TransportStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.SecurityLevelDeno (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.EnableDenomination (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.SecuredCommLevel (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SessionStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.DeviceType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.ClassType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.SelfTestMode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.AntiFishingLevel (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.ReportingMode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.RecognitionResult (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.BillRoutingOption (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.SystemOperationalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.SystemErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: XfsEuroArt6Capability (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.DeviceError (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.DevicePosition (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: XfsCdrPositionCapabilities (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: XfsCapabilities (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: XfsDenominationInfo (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: BillRoutingTable (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.HistoryReportReason (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SystemUseHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: SystemOpeningDetails (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: SystemRestartHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: MainModuleSectionCounters (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: IncidentStartSectionCounters (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: PerSectionFailureHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: SystemFailureHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: CashTypeDispenseHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: CashTypeAcceptanceHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: BillDispenseHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: TransportRejectDetails (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: InsertionRejectDetails (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: GlobalInletAcceptanceHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: InletAcceptanceHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ExtractionRejectDetails (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: LoaderRecognitionRejectDetails (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: LoaderSlotAcceptanceHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: LoaderAcceptanceHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: CashTypeRecycleHistoryItem (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: CashTypeRecycleHistoryItems (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: BillAcceptanceHistoryEx (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: BillAcceptanceHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: RecyclerReplenishHistoryItem (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: RecyclerReplenishHistoryItems (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ReplenishHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: BnrSerialNrList (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.BnrType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.CashboxCapacity (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.CashboxType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.SmartSpineActivation (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.ChangeAlgorithm (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.PreventativeMaintenanceLevel (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SystemConfiguration (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ConfigOption (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.StatusOverview (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.Status (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.Element.Status (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.Bundler.StatusOverview (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.Bundler.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Cashbox.StatusOverview (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.Cashbox.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Loader.StatusOverview (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.Loader.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.MainModule.StatusOverview (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.MainModule.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.BillCassetteExchangeHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.FailureHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.MaintenanceSensor (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.MaintenanceInfo (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.RestartHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.UseHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.Recycler.StatusOverview (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.Recycler.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Spine.StatusOverview (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.Spine.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Measures (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.RegulatedSensorCalibrationValue (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.Regulations (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.FullVersion (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.Version (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.VersionRequirement (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.Component (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.Identification (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.StoredErrorItem (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.StoredErrors (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.BillsetIdInfo (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.BnrException (7 methods)
+   Methods: ['GetBaseException', 'ToString', 'GetType', 'GetObjectData', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.BnrExceptionFactory (5 methods)
+   Methods: ['CreateException', 'Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.BnrApiException (8 methods)
+   Methods: ['ToString', 'GetBaseException', 'ToString', 'GetType', 'GetObjectData', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.BnrUsbException (8 methods)
+   Methods: ['ToString', 'GetBaseException', 'ToString', 'GetType', 'GetObjectData', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.BnrXfsException (8 methods)
+   Methods: ['ToString', 'GetBaseException', 'ToString', 'GetType', 'GetObjectData', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.BarcodeReader.StatusOverview (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.BarcodeReader.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.BunchNoteFeeder.StatusOverview (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.BunchNoteFeeder.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.PositionStatus (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Status (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.SystemStatus (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.SystemStatusOverview (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.FullSystemStatus (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.XfsCashInBankNoteTypeItem (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.XfsCashInBankNoteType (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.XfsArt6CashOrder (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.XfsCurrency (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.XfsDenominationItem (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.XfsDenomination (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.XfsCashOrder (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.XfsCashAvailableDetails (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.CashInStatus (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.KeyOwnerInfo (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.PreventativeMaintenance (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.EndianConverter (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.TestedBillWayInfo (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.TwoSetsDistSumAlgoAttributeResult (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.AlgorithmDetailedResult (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.NhpZoneLimits (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.NhpZoneDetailedResult (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.NumberOfHighPointsAlgoNormalizationData (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.NumberOfHighPointsAlgoDetailedResult (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.SizeCheckAlgoDetailedResult (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.TwoSetsDistSumAlgoDetailedResult (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.ZonesMahalAlgoDetailedResult (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.ZonePartsMahalAlgoDetailedResult (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.DetailedRecognitionResult (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.AlgorithmSignature (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.NumberOfHighPointsAlgoSignature (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.SizeCheckAlgoSignature (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.TwoSetsDistSumAlgoSignature (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.ZonesMahalAlgoSignature (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.ZonePartsMahalAlgoSignature (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Signature (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.CashUnit.SimplePhysicalCashUnit (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.ModuleHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.ModuleHistoryList (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Report.HistoryReport (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Report.HistoryReportList (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Report.Object (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Report.BillTransportLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Report.ModuleIdentificationReport (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Report.BillTransportErrorReport (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Report.BillTransportErrorReportList (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Report.SimpleFailureReport (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Report.SimpleFailureReportList (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Report.BillTransportEventReport (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Report.BillTransportEventReportList (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.TransactionStatus (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.FirmwarePackageVersion (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Bnr (78 methods)
+   Key Methods: ['add_StatusOccuredEvent', 'add_IntermediateOccuredEvent', 'add_OperationCompletedEvent', 'add_CashOccuredEvent', 'AddDenomination', 'CalibrateWithCoupon', 'DisplaySignature', 'SetLoaderCuContent', 'GetSignature', 'GetDispenseSignature', 'GetDispenseSignature', 'KillUsbAndReload', 'SelfTest']
+
+Type: Mei.Bnr.Module.OperationalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: ModuleStatusOverviewBaseClass (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.ErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.Module.BillTransportStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.Module.BillTransportSection (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.Module.BillStorageStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.Module.CashTypeStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: ModuleStatusBaseClass (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ElementStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Bundler.ErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.Module.Bundler.FunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: BundlerStatusOverview (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: BundlerStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Cashbox.ErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: CashboxStatusOverview (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: CashboxStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Loader.FunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: LoaderStatusOverview (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: LoaderStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.MainModule.ErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: MainModuleStatusOverview (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: MainModuleStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: BillCassetteExchangeHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: DefaultModuleFailureHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.MaintenanceStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.Module.MaintenanceReason (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: MaintenanceSensor (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: MaintenanceInfo (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ModuleRestartHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Recycler.FunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: RecyclerStatusOverview (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: RecyclerStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: SpineStatusOverview (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: SpineStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: T_ModuleMeasures (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: RegulatedSensorCalibrationValue (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: T_ModuleRegulation (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.ComponentStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: FullVersion (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Version (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: VersionRequirement (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Component (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ModuleIdentification (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: StoredError (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: StoredErrorList (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: BillsetIdInfo (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.BnrXfsErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.BnrApiErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.BnrUsbErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: BarcodeReaderStatusOverview (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: BarcodeReaderStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.BunchNoteFeeder.FunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: BunchNoteFeederStatusOverview (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: BunchNoteFeederStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.SystemBillStorageStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.BillTransportStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.CashTypeStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: PositionStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: XfsCdrStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: SystemStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: SystemStatusOverview (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: FullSystemStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: XfsCashInBankNoteTypeItem (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: XfsCashInBankNoteType (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: XfsArt6CashOrder (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: XfsCurrency (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: XfsDenominationItem (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: XfsDenomination (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: XfsCashOrder (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: XfsCashAvailableDetails (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.XfsCashInTransactionStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: XfsCashInStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: KeyOwnerInfo (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: PreventativeMaintenance (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.AlgorithmResult (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.AlgorithmType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.BillRecognitionStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.SizeCheckAlgoResult (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.WayOfIntroduction (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: TestedBillWayInfo (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: TwoSetsDistSumAlgoAttributeResult (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: NhpZoneLimits (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: NhpZoneDetailedResult (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: NumberOfHighPointsAlgoNormalizationData (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: NumberOfHighPointsAlgoDetailedResult (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: SizeCheckAlgoDetailedResult (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: TwoSetsDistSumAlgoDetailedResult (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ZonesMahalAlgoDetailedResult (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ZonePartsMahalAlgoDetailedResult (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: DetailedRecognitionResult (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: DetailedRecognitionResult+<unnamed-type-algorithmsResult> (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: NumberOfHighPointsAlgoSignature (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: SizeCheckAlgoSignature (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: TwoSetsDistSumAlgoSignature (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ZonesMahalAlgoSignature (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ZonePartsMahalAlgoSignature (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Signature (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: SimplifiedPcu (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ModuleHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ModuleHistoryList (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: HistoryReport (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: HistoryReportList (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Report.LogEntryType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: BnrInternalObject (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: BillTransportLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: BillTransportLogEntryBaseClass (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ModuleIdentificationReport (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: BillTransportErrorReport (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: BillTransportErrorReportList (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: SimpleFailureReport (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: SimpleFailureReportList (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: BillTransportEventReport (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: BillTransportEventReportList (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.TransactionType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: TransactionStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ModuleIdList (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: XfsDispenseRequest (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: HWND__ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.BnrWin32ApiListener (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: gcroot<Mei::Bnr::NativeIntermediateEventOccuredDelegate ^> (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: gcroot<Mei::Bnr::NativeStatusOccuredDelegate ^> (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: gcroot<Mei::Bnr::NativeOperationCompleteOccuredDelegate ^> (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.ReservedAccess (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ReplenishParameters (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ReplenishParameters+<unnamed-type-items> (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: T_WayOfIntroduction (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: StatusEventIdList (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: IntermediateEventIdList (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _s__ThrowInfo (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.BarcodeReader.BcrSensorCalibrationValue (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.BarcodeReader.Regulations (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: BcrSensorCalibrationValue (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: RegulatedSensorCalibration (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: RegulatedSensorCalibration+<unnamed-type-items> (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.BunchNoteFeeder.FailureHistory (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.BunchNoteFeeder.UseHistory (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.BunchNoteFeeder.DoubleBillDetectorCalibrationValue (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.BunchNoteFeeder.Regulations (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: BunchNoteFeederFailureHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: BunchNoteFeederUseHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: DoubleBillDetectorCalibrationValue (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ModuleUseHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ModuleFailureHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ModuleStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: DoubleBillSensorCalibration (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.BnfGate.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Cover.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.DoubleBillDetector.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Sensor.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Motor.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Platform.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.BnfGate.FunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.Module.Element.BnfGate.ErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: BnfGateStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Cover.FunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: CoverStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.DoubleBillDetector.FunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.Module.Element.DoubleBillDetector.ErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: DoubleBillDetectorStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Sensor.FunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Sensor.ErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SensorStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Motor.FunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Motor.ErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: MotorStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Platform.FunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Platform.ErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: PlatformStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: BunchNoteFeederElementStatusItem (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Bundler.Regulations (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.Cashbox.FailureHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: CashboxFailureHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.SecondaryRecognitionSensor.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.SecondaryRecognitionSensor.ErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SecondaryRecognitionSensorStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.SpineInterfaceDiverter.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.SpineInterfaceDiverter.FunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.Module.Element.SpineInterfaceDiverter.ErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: SpineInterfaceDiverterStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Loader.Regulations (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.MainModule.RecognitionSensorCalibrationValue (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.MainModule.CalibrationTarget (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.MainModule.DsrFactor (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.MainModule.ResidualOffset (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.MainModule.ScaleFactor (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.MainModule.PulseWidthSetPoint (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.MainModule.DualSpotMeasure (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.MainModule.MagneticSensorChannelCharacteristics (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.MainModule.MagneticSensorCharacteristics (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.MainModule.OffsetAdderSetPoints (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.MainModule.RecognitionCalibrationValue (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.MainModule.Regulations (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: RecognitionSensorCalibrationValue (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: CalibrationTarget (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: DsrFactor (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ResidualOffset (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ScaleFactor (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: PulseWidthSetPoint (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: DualSpotMeasure (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: MagneticSensorChannelCharacteristics (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: MagneticSensorCharacteristics (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: OffsetAdderSetPoints (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: RecognitionCalibrationValues (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: RecognitionSensorCalibration (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Bundler.UseHistory (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Cashbox.BillCassetteExchangeHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.Loader.BillCassetteExchangeHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.Loader.FailureHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.Loader.UseHistory (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Recycler.BillCassetteExchangeHistory (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.Recycler.UseHistory (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.MainModule.UseHistory (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Diverter.UseHistory (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Spine.UseHistory (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: BundlerUseHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: CashboxExchangeHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: LoaderExchangeHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: LoaderFailureHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: LoaderUseHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: RecyclerExchangeHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: RecyclerUseHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: MainModuleUseHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: DiverterUseHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: SpineUseHistory (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Recycler.Regulations (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.Spine.Regulations (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: AlgorithmSignature (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: AlgorithmDetailedResult (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: __crt_locale_data_public (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: __crt_locale_pointers (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _GUID (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _TP_CALLBACK_ENVIRON_V3 (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _TP_CALLBACK_ENVIRON_V3+<unnamed-type-u> (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _TP_CALLBACK_ENVIRON_V3+<unnamed-type-u>+<unnamed-type-s> (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _DEVICE_MANAGE_DATA_SET_ATTRIBUTES (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _DEVICE_DATA_SET_RANGE (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _DEVICE_DSM_DEFINITION (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _ldiv_t (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagMSG (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _SECURITY_ATTRIBUTES (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagVARIANT (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagVARIANT+$UnnamedClass$0x75aba712$526$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagVARIANT+$UnnamedClass$0x75aba712$526$+$UnnamedClass$0x75aba712$527$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagVARIANT+$UnnamedClass$0x75aba712$526$+$UnnamedClass$0x75aba712$527$+$UnnamedClass$0x75aba712$528$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagVARIANT+$UnnamedClass$0x75aba712$526$+$UnnamedClass$0x75aba712$527$+$UnnamedClass$0x75aba712$528$+$UnnamedClass$0x75aba712$529$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagRECT (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: HDC__ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagPROPVARIANT (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagPROPVARIANT+$UnnamedClass$0x75aba712$534$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagPROPVARIANT+$UnnamedClass$0x75aba712$534$+$UnnamedClass$0x75aba712$535$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagPROPVARIANT+$UnnamedClass$0x75aba712$534$+$UnnamedClass$0x75aba712$535$+$UnnamedClass$0x75aba712$536$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagTEXTMETRICA (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _lldiv_t (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ?A0x75aba712.__clr_placement_new_t (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.PressurePlate.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.PressurePlate.FunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.Module.Element.PressurePlate.ErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: PressurePlateStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.AntiFishing.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.AntiFishing.FunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.Module.Element.AntiFishing.ErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: FlapStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Diverter.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Diverter.FunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Diverter.ErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: DiverterStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.TapePosition.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.TapePosition.FunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.Module.Element.TapePosition.ErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: TapePositionStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.BundlerDivSystem.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.BundlerDivSystem.FunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.Module.Element.BundlerDivSystem.ErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: BundlerDivSystemStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.RecognitionSensor.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.RecognitionSensor.FunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.Module.Element.RecognitionSensor.ErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: RecognitionSensorStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Positioner.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Positioner.FunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Positioner.ErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: PositionerStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Stacker.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Stacker.FunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Stacker.ErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: StackerStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.CBStackHeight.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.CBStackHeight.FunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: CashboxStackHeightStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Flap.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Flap.FunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.Module.Element.Flap.ErrorCode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: Mei.Bnr.Module.Element.LOStackHeight.Status (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.Element.LOStackHeight.FunctionalStatus (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: LoaderStackHeightStatus (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: LoaderElementStatusItem (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: SpineElementStatusItem (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: RecyclerElementStatusItem (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: BundlerElementStatusItem (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.MainModule.MagneticSensorMeasures (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Module.MainModule.Measures (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: MagneticSensorMeasures (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: MagneticSensorMeasures+<unnamed-type-sensorVersion> (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: MainModuleMeasures (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: MainRecognitionSensorMeasures (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: MainModuleElementStatusItem (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.BarcodeReader.UseHistory (4 methods)
+   Methods: ['ToString', 'Equals', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Module.BarcodeReader.Measures (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: T_BarcodeReaderMeasures (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: BarcodeReaderElementStatusItem (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Report.ApplicationLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Report.DestinationLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Report.StepLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Report.ResetReasonType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: ApplicationLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: DestinationLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: StepLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: StepLogEntryBaseClass (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Report.AntiFishingFlapLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: AntiFishingFlapLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Report.BundlerDivSystemLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: BundlerDivSystemLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Report.CommandResultLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: CommandResultLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Report.DetectorLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: DetectorLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Report.DiverterLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: DiverterLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Report.HibouLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: HibouLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Report.LoaderLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: LoaderLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Report.MotorLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: MotorLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Report.PositionerLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: PositionerLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Report.PressurePlateLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: PressurePlateLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Report.RecognitionLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: RecognitionLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Report.RecyclerLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: RecyclerLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Report.SectionLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: SectionLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Report.SegmentExceptionLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: SegmentExceptionLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Report.SequenceInterruptLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: SequenceInterruptLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Report.StackerLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: StackerLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Report.StartSequenceLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: StartSequenceLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: Mei.Bnr.Report.TapePositionLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: Mei.Bnr.Report.StepTriggerLogEntry (4 methods)
+   Methods: ['Equals', 'GetHashCode', 'GetType', 'ToString']
+
+Type: TapePositionLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: StepTriggerLogEntry (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: vc.cppcli.attributes.?A0xe9f2c66e.CppInlineNamespaceAttribute (6 methods)
+   Methods: ['Equals', 'GetHashCode', 'Match', 'IsDefaultAttribute', 'GetType', 'ToString']
+
+Type: ?A0xe9f2c66e.__clr_placement_new_t (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: vc.cppcli.attributes.?A0xc60603a9.CppInlineNamespaceAttribute (6 methods)
+   Methods: ['Equals', 'GetHashCode', 'Match', 'IsDefaultAttribute', 'GetType', 'ToString']
+
+Type: POWER_SETTING_ALTITUDE (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: ARM64_FNPDATA_FLAGS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: ARM64_FNPDATA_CR (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: std.align_val_t (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_gchost_0000_0000_0001 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_gchost_0000_0000_0002 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: ValidatorFlags (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_mscoree_0000_0000_0001 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_mscoree_0000_0000_0002 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_mscoree_0000_0000_0003 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_mscoree_0000_0000_0004 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_mscoree_0000_0000_0005 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_mscoree_0000_0009_0001 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_mscoree_0000_0009_0002 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_mscoree_0000_0009_0003 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_mscoree_0000_0011_0001 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: ETaskType (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_mscoree_0000_0020_0001 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_mscoree_0000_0021_0001 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_mscoree_0000_0021_0002 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_mscoree_0000_0028_0001 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_mscoree_0000_0028_0002 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_mscoree_0000_0028_0003 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_mscoree_0000_0028_0004 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_mscoree_0000_0030_0001 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_mscoree_0000_0030_0002 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _CLRAssemblyIdentityFlags (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _hostBiningPolicyModifyFlags (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_mscoree_0000_0040_0001 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _HostApplicationPolicy (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_mscoree_0000_0045_0001 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_mscoree_0000_0046_0001 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __MIDL___MIDL_itf_mscoree_0000_0048_0001 (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _crt_argv_mode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _crt_exit_return_mode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _crt_exit_cleanup_mode (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _crt_app_type (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: ISA_AVAILABILITY (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: _EVENT_INFO_CLASS (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __vcrt_lock_id (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __scrt_module_type (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __scrt_native_startup_state (10 methods)
+   Methods: ['GetHashCode', 'ToString', 'ToString', 'CompareTo', 'ToString', 'HasFlag', 'GetTypeCode', 'Equals', 'ToString', 'GetType']
+
+Type: __m128 (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: __m64 (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: IUnknown (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: gcroot<System::String ^> (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: __s_GUID (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ?A0xc60603a9.__clr_placement_new_t (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ICLRRuntimeHost (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ICorRuntimeHost (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: HINSTANCE__ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagVARIANT+$UnnamedClass$0xc60603a9$321$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagVARIANT+$UnnamedClass$0xc60603a9$321$+$UnnamedClass$0xc60603a9$322$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagVARIANT+$UnnamedClass$0xc60603a9$321$+$UnnamedClass$0xc60603a9$322$+$UnnamedClass$0xc60603a9$323$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagVARIANT+$UnnamedClass$0xc60603a9$321$+$UnnamedClass$0xc60603a9$322$+$UnnamedClass$0xc60603a9$323$+$UnnamedClass$0xc60603a9$324$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _EVENT_DESCRIPTOR (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagPROPVARIANT+$UnnamedClass$0xc60603a9$329$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagPROPVARIANT+$UnnamedClass$0xc60603a9$329$+$UnnamedClass$0xc60603a9$330$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagPROPVARIANT+$UnnamedClass$0xc60603a9$329$+$UnnamedClass$0xc60603a9$330$+$UnnamedClass$0xc60603a9$331$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: __crt_fast_encoded_nullptr_t (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _EVENT_DATA_DESCRIPTOR (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _EVENT_DATA_DESCRIPTOR+$UnnamedClass$0xc60603a9$336$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _EVENT_DATA_DESCRIPTOR+$UnnamedClass$0xc60603a9$336$+$UnnamedClass$0xc60603a9$337$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: vc.cppcli.attributes.?A0xe702dd6f.CppInlineNamespaceAttribute (6 methods)
+   Methods: ['Equals', 'GetHashCode', 'Match', 'IsDefaultAttribute', 'GetType', 'ToString']
+
+Type: _AMD64_MXCSR_REG (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _AMD64_MXCSR_REG+$UnnamedClass$0xe702dd6f$32$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _EXCEPTION_POINTERS (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _ARM64_FPCR_REG (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _ARM64_FPCR_REG+$UnnamedClass$0xe702dd6f$30$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _ARM64_FPSR_REG (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _ARM64_FPSR_REG+$UnnamedClass$0xe702dd6f$31$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _EVENT_DATA_DESCRIPTOR+$UnnamedClass$0xe702dd6f$274$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _EVENT_DATA_DESCRIPTOR+$UnnamedClass$0xe702dd6f$274$+$UnnamedClass$0xe702dd6f$275$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ?A0xe702dd6f.__clr_placement_new_t (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: vc.cppcli.attributes.?A0xf27b8f8e.CppInlineNamespaceAttribute (6 methods)
+   Methods: ['Equals', 'GetHashCode', 'Match', 'IsDefaultAttribute', 'GetType', 'ToString']
+
+Type: _iobuf (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _AMD64_MXCSR_REG+$UnnamedClass$0xf27b8f8e$32$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _ARM64_FPCR_REG+$UnnamedClass$0xf27b8f8e$30$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ?A0xf27b8f8e.__clr_placement_new_t (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _ARM64_FPSR_REG+$UnnamedClass$0xf27b8f8e$31$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _EVENT_DATA_DESCRIPTOR+$UnnamedClass$0xf27b8f8e$274$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _EVENT_DATA_DESCRIPTOR+$UnnamedClass$0xf27b8f8e$274$+$UnnamedClass$0xf27b8f8e$275$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: vc.cppcli.attributes.?A0x91958f79.CppInlineNamespaceAttribute (6 methods)
+   Methods: ['Equals', 'GetHashCode', 'Match', 'IsDefaultAttribute', 'GetType', 'ToString']
+
+Type: _AMD64_MXCSR_REG+$UnnamedClass$0x91958f79$36$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagVARIANT+$UnnamedClass$0x91958f79$320$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagVARIANT+$UnnamedClass$0x91958f79$320$+$UnnamedClass$0x91958f79$321$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagVARIANT+$UnnamedClass$0x91958f79$320$+$UnnamedClass$0x91958f79$321$+$UnnamedClass$0x91958f79$322$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagVARIANT+$UnnamedClass$0x91958f79$320$+$UnnamedClass$0x91958f79$321$+$UnnamedClass$0x91958f79$322$+$UnnamedClass$0x91958f79$323$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _ARM64_FPCR_REG+$UnnamedClass$0x91958f79$34$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: ?A0x91958f79.__clr_placement_new_t (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagPROPVARIANT+$UnnamedClass$0x91958f79$328$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagPROPVARIANT+$UnnamedClass$0x91958f79$328$+$UnnamedClass$0x91958f79$329$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: tagPROPVARIANT+$UnnamedClass$0x91958f79$328$+$UnnamedClass$0x91958f79$329$+$UnnamedClass$0x91958f79$330$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _ARM64_FPSR_REG+$UnnamedClass$0x91958f79$35$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _EVENT_DATA_DESCRIPTOR+$UnnamedClass$0x91958f79$278$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
+
+Type: _EVENT_DATA_DESCRIPTOR+$UnnamedClass$0x91958f79$278$+$UnnamedClass$0x91958f79$279$ (4 methods)
+   Methods: ['Equals', 'ToString', 'GetHashCode', 'GetType']
