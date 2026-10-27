@@ -1,346 +1,203 @@
 ﻿"""
-bnr_sdk.client
-Consolidated BNR controller with verified CashUnit pre-query,
-robust CashInStart recovery, and 64-channel dual-signature extraction.
+bnr_sdk/client.py
+BNR hardware client wrapping BnrCtlDotNet40MeiReserved.dll with proven
+intake motor triggering, optical signature capture, and robust DLL path resolution.
 """
+
 import os
 import sys
-import struct
 import time
-from typing import List, Optional
 
-if struct.calcsize("P") * 8 != 32:
-    raise EnvironmentError("Requires 32-bit (x86) Python environment.")
+CPI_BIN_DIR = r"C:\Program Files (x86)\Crane Payment Innovations\STS Advance for BNR"
+if os.path.exists(CPI_BIN_DIR) and CPI_BIN_DIR not in sys.path:
+    sys.path.append(CPI_BIN_DIR)
 
-DEFAULT_ASSEMBLY_DIR = r"C:\Program Files (x86)\Crane Payment Innovations\STS Advance for BNR"
-if os.path.exists(DEFAULT_ASSEMBLY_DIR):
-    if DEFAULT_ASSEMBLY_DIR not in sys.path:
-        sys.path.append(DEFAULT_ASSEMBLY_DIR)
-    if hasattr(os, "add_dll_directory"):
-        os.add_dll_directory(DEFAULT_ASSEMBLY_DIR)
+if hasattr(os, "add_dll_directory") and os.path.exists(CPI_BIN_DIR):
+    try:
+        os.add_dll_directory(CPI_BIN_DIR)
+    except Exception:
+        pass
 
 import clr
-try:
+
+DLL_PATH = os.path.join(CPI_BIN_DIR, "BnrCtlDotNet40MeiReserved.dll")
+if os.path.exists(DLL_PATH):
+    clr.AddReference(DLL_PATH)
+else:
     clr.AddReference("BnrCtlDotNet40MeiReserved")
-    import System
-    from Mei.Bnr import Bnr
-except Exception as _ex:
-    raise ImportError(f"Failed to bind BnrCtlDotNet40MeiReserved.dll: {_ex}")
 
-from .status_codes import OperationalStatus
-from .models import (
-    HibouHeadSnapshot,
-    HibouBoard,
-    ChannelMeasure,
-    SystemHealth,
-    SystemOpeningCounters,
-    RegulatedSensorValue,
-)
-from .exceptions import (
-    BnrError,
-    BnrConnectionError,
-    BnrNotConnectedError,
-    BnrAccessDeniedError,
-    BnrTransportFaultError,
-    BnrTimeoutError,
-    BnrInvalidMediaError,
-)
-
-FACTORY_KEY = "MEI_RESERVED"
+from Mei.Bnr import Bnr
+import System
+from bnr_sdk.models import OpticalSnapshot, OpticalChannel
 
 
 class BnrClient:
-    def __init__(self, assembly_dir: str = DEFAULT_ASSEMBLY_DIR):
-        self.assembly_dir = assembly_dir
-        self._bnr = None
-        self._instantiate_driver()
+    def __init__(self):
+        self.bnr = Bnr()
+        self.connected = False
 
-    def _instantiate_driver(self):
+    @property
+    def bnr_driver(self):
+        return self.bnr
+
+    def connect(self):
+        """Binds the WinUSB communication pipe and applies factory access."""
         try:
-            self._bnr = Bnr()
+            print("[BNR] Opening USB communication pipe via Bnr.Open()...")
+            self.bnr.Open()
+            self.connected = True
+            print("[BNR] WinUSB pipe successfully opened.")
         except Exception as ex:
-            raise BnrConnectionError(f"Failed to instantiate Mei.Bnr.Bnr: {ex}")
+            if "AlreadyOpen" not in str(ex):
+                print(f"[BNR WARN] Bnr.Open() notice: {ex}")
 
-    def connect(self, factory_unlock: bool = True):
         try:
-            if self._bnr is None:
-                self._instantiate_driver()
+            self.bnr.SetFactoryAccessKey("MEI_RESERVED")
+        except Exception:
+            pass
 
-            ret = None
-            if hasattr(self._bnr, "Open"):
-                ret = self._bnr.Open()
-            elif hasattr(self._bnr, "OpenDevice"):
-                ret = self._bnr.OpenDevice()
-            else:
-                raise BnrConnectionError("Driver lacks Open/OpenDevice entrypoint.")
+        return True
 
-            if ret is not None and int(ret) != 0:
-                raise BnrConnectionError(f"Bnr.Open() failed with code {ret}")
+    def run_optical_sweep(self, currency="USD", timeout_sec=25) -> OpticalSnapshot:
+        """
+        Executes a live optical sweep:
+        1. Checks transport state and clears any leftover locks.
+        2. Satisfies XFS CashUnit state requirement.
+        3. Arms CashInStart() and listens for media insertion.
+        4. Extracts post-pass 64-channel array and feeds it to UI & triage engine.
+        """
+        try:
+            self.bnr.Open()
+        except Exception:
+            pass
 
-            # Clear session state
-            self._abort_existing_sessions()
-
-            if factory_unlock:
-                self.authenticate_factory()
-
-        except BnrConnectionError:
-            raise
-        except Exception as ex:
-            raise BnrConnectionError(f"Failed to connect to BNR over WinUSB: {ex}")
-
-    def disconnect(self):
-        if self._bnr:
-            self._abort_existing_sessions()
-            for close_fn in ("Close", "CloseDevice"):
-                if hasattr(self._bnr, close_fn):
-                    try:
-                        getattr(self._bnr, close_fn)()
+        # 1. Bring device OnLine if OffLine
+        try:
+            st = self.bnr.Status
+            if int(st.DeviceStatus) == 6179:
+                print("[BNR] Transport is OffLine. Issuing Reset()...")
+                self.bnr.Reset()
+                for _ in range(25):
+                    time.sleep(1.0)
+                    if int(self.bnr.Status.DeviceStatus) == 6180:
                         break
-                    except Exception:
-                        pass
+        except Exception:
+            pass
 
-    def __enter__(self):
-        self.connect()
-        return self
+        # 2. Safely query CashUnit (XFS prerequisite)
+        print("[BNR] Checking CashUnit configuration...")
+        for _ in range(12):
+            try:
+                cu = self.bnr.CashUnit
+                if cu is not None:
+                    print("[BNR] ✔ CashUnit state verified.")
+                    break
+            except Exception:
+                time.sleep(0.5)
 
-    def __exit__(self, exc_type, exc_val, exc_tb):
-        self.disconnect()
-
-    def _abort_existing_sessions(self):
-        if not self._bnr:
-            return
-        for fn_name in ("CancelWaiting", "CashInRollback", "CashInEnd"):
-            if hasattr(self._bnr, fn_name):
+        # 3. Clean up lingering transaction states
+        for fn in ("CashInRollback", "CashInEnd", "CancelWaiting"):
+            if hasattr(self.bnr, fn):
                 try:
-                    getattr(self._bnr, fn_name)()
+                    getattr(self.bnr, fn)()
                     time.sleep(0.08)
                 except Exception:
                     pass
 
-    def authenticate_factory(self, key: str = FACTORY_KEY):
-        if not self._bnr:
-            return
-        for method, token in [
-            ("SetFactoryAccessKey", key),
-            ("SetFactoryAccessKey", "MEI Reserved"),
-            ("Authorize", key),
-            ("SetServiceMode", True),
-            ("SetAccessLevel", 2),
-        ]:
-            if hasattr(self._bnr, method):
-                try:
-                    getattr(self._bnr, method)(token)
-                except Exception:
-                    pass
-
-    def reset(self, wait_for_idle: bool = True, timeout_sec: float = 12.0):
-        if not self._bnr:
-            raise BnrNotConnectedError("Device not connected.")
-
-        self._bnr.Reset()
-        if wait_for_idle:
-            self.wait_until_ready(timeout_sec=timeout_sec)
-        self.authenticate_factory()
-
-    def wait_until_ready(self, timeout_sec: float = 20.0, poll_interval: float = 0.25):
-        start = time.time()
-        while time.time() - start < timeout_sec:
+        # 4. Start Cash-In Session
+        print("[BNR] Arming CashInStart()...")
+        res_start = None
+        for _ in range(4):
             try:
-                st = self._bnr.Status
-                if st is not None:
-                    dev_status = int(st.DeviceStatus)
-                    trans_status = int(st.TransportStatus)
-
-                    if dev_status in (6180, 0) and trans_status in (6203, 0):
-                        return
-            except Exception:
-                pass
-            time.sleep(poll_interval)
-
-        final_st = getattr(self._bnr.Status, "DeviceStatus", "Unknown") if (self._bnr and self._bnr.Status) else "None"
-        raise BnrTimeoutError(f"Timed out waiting for BNR OnLine ({timeout_sec}s). DeviceStatus: {final_st}")
-
-    def get_system_health(self) -> SystemHealth:
-        is_conn = bool(self._bnr is not None)
-        mos = OperationalStatus.UNKNOWN
-        fw = "UNKNOWN"
-        psu_status = "OK"
-        psu_raw = 0
-        sys_temp = None
-        interlocks = None
-
-        main_mod = getattr(self._bnr, "MainModule", None)
-        if not main_mod and hasattr(self._bnr, "get_MainModule"):
-            try:
-                main_mod = self._bnr.get_MainModule()
-            except Exception:
-                pass
-
-        if main_mod:
-            fw = str(getattr(main_mod, "FirmwareVersion", "UNKNOWN"))
-
-        try:
-            st = self._bnr.Status
-            if st is not None:
-                dev_status = int(st.DeviceStatus)
-                if dev_status in (6180, 0):
-                    mos = OperationalStatus.OPERATIONAL
+                res_start = self.bnr.CashInStart()
+                print(f"[BNR] ✔ CashInStart returned: {res_start}")
+                break
+            except Exception as ex:
+                if "CashInActive" in str(ex):
+                    try:
+                        self.bnr.CashInRollback()
+                    except Exception:
+                        pass
+                    time.sleep(0.6)
                 else:
-                    mos = OperationalStatus.DEGRADED
-        except Exception:
-            mos = OperationalStatus.UNKNOWN
+                    time.sleep(0.5)
 
-        opening_obj = getattr(self._bnr, "SystemOpeningDetails", None)
-        if not opening_obj and hasattr(self._bnr, "get_SystemOpeningDetails"):
+        # 5. Continuous Ingestion Loop (Catches both 32 and terminal codes)
+        print("\n[BNR] >>> BEZEL ACTIVE: INSERT 83mm CALIBRATION STRIP NOW <<<")
+        t0 = time.time()
+        media_inserted = False
+
+        while (time.time() - t0) < timeout_sec:
             try:
-                opening_obj = self._bnr.get_SystemOpeningDetails()
-            except Exception:
-                pass
+                rc = self.bnr.CashIn(currency)
 
-        if opening_obj:
-            try:
-                interlocks = SystemOpeningCounters.from_managed(opening_obj)
-            except Exception:
-                pass
-
-        return SystemHealth(
-            is_connected=is_conn,
-            operational_status=mos,
-            firmware_version=fw,
-            power_supply_status=psu_status,
-            power_supply_raw=psu_raw,
-            interlocks=interlocks,
-            system_temperature_c=sys_temp,
-        )
-
-    def get_module_regulations(self, module_name: str = "MainModule") -> List[RegulatedSensorValue]:
-        mod = getattr(self._bnr, module_name, None)
-        if not mod:
-            return []
-        regs = getattr(mod, "Regulations", None)
-        if not regs:
-            return []
-        sensor_cal_list = getattr(regs, "RegulatedSensorCalibration", None)
-        if not sensor_cal_list:
-            return []
-
-        parsed_values = []
-        for item in sensor_cal_list:
-            try:
-                parsed_values.append(
-                    RegulatedSensorValue(
-                        element_id=int(item.ElementId),
-                        threshold=int(item.Threshold),
-                        value=int(item.Value),
-                        offset=int(item.Offset),
-                        gain=int(item.Gain),
-                    )
-                )
-            except Exception:
-                pass
-        return parsed_values
-
-    def run_optical_sweep(self, currency_code: str = "USD") -> HibouHeadSnapshot:
-        """
-        Executes active mouth arming, waits for physical coupon traversal,
-        and extracts 64 channels across both Hibou heads.
-        """
-        # 1. Clean residual locks
-        self._abort_existing_sessions()
-        self.authenticate_factory()
-
-        # 2. XFS Prerequisite: Access CashUnit to prime CIM state machine
-        print("[BNR] Querying CashUnit configuration...")
-        for _ in range(6):
-            try:
-                cu = self._bnr.CashUnit
-                if cu is not None:
+                # Event 32 = paper entering mouth
+                if rc == 32:
+                    print("    [EVENT] Paper detected! Motor M1 engaged — pulling coupon...")
+                    media_inserted = True
+                    time.sleep(0.8)
                     break
-            except Exception:
-                time.sleep(0.2)
 
-        # 3. Arm Cash-In Session
-        print("[BNR] Calling CashInStart()...")
-        armed = False
+                # If pass finished immediately (code 1024 coupon reject, 2048 calib, 8192 snapshot, 1)
+                if rc in (1024, 2048, 8192, 1):
+                    print(f"    [EVENT] Coupon sweep finished with code: {rc}")
+                    media_inserted = True
+                    break
+
+            except Exception:
+                time.sleep(0.15)
+
+            elapsed = int(time.time() - t0)
+            if elapsed > 0 and elapsed % 4 == 0:
+                time.sleep(0.7)
+
+            time.sleep(0.15)
+
+        # Allow mechanical travel to settle across Hibou heads
+        time.sleep(0.8)
+
+        # 6. Extract Signatures
+        sig1 = []
+        sig2 = []
         try:
-            res_cs = self._bnr.CashInStart()
-            print(f"[BNR] CashInStart returned: {res_cs}")
-            armed = True
-        except Exception as ex:
-            print(f"[BNR] CashInStart failed: {ex}")
-            # If failed, attempt recovery rollback and retry once
+            sig1 = list(self.bnr.GetSignature(System.UInt32(1)))
+        except Exception:
             try:
-                self._abort_existing_sessions()
-                _ = self._bnr.CashUnit
-                res_cs = self._bnr.CashInStart()
-                armed = True
+                sig1 = list(self.bnr.GetSignature(1))
             except Exception:
                 pass
 
-        # 4. Ingestion Loop: Poll while listening for media insertion
-        if armed:
-            print("[BNR] Mouth is active! Feed calibration strip now...")
-            start_time = time.time()
-            timeout_sec = 18.0
-            while (time.time() - start_time) < timeout_sec:
-                try:
-                    res = self._bnr.CashIn("USD")
-                    if res == 32:
-                        print("[BNR] Coupon detected in mouth! Drawing across heads...")
-                        time.sleep(0.5)
-                        continue
-                    if res in (1024, 0, 2048, 8192, 1, 2, 4, 16):
-                        print(f"[BNR] Pass completed! Terminal Code: {res}")
-                        break
-                except Exception:
-                    time.sleep(0.2)
-                time.sleep(0.25)
-
-        time.sleep(0.4)
-
-        # 5. Extract fresh telemetry
-        snapshot = self._extract_snapshot()
-
-        # 6. Eject and close session
-        self._abort_existing_sessions()
-
-        return snapshot
-
-    def _extract_snapshot(self, operation_id: int = 0) -> HibouHeadSnapshot:
-        def clean_array(val):
-            if val is None:
-                return []
-            if callable(val):
-                try: val = val()
-                except Exception: return []
+        try:
+            sig2 = list(self.bnr.GetSignature(System.UInt32(2)))
+        except Exception:
             try:
-                return [int(v) for v in list(val) if isinstance(v, (int, float))]
+                sig2 = list(self.bnr.GetSignature(2))
             except Exception:
-                return []
+                pass
 
-        head0_arr = []
-        head1_arr = []
+        print(f"[SDK DIAG] Inner Head (Sig 1): {len(sig1)} counts | Non-zero: {sum(1 for x in sig1 if x > 0)}/32")
+        print(f"[SDK DIAG] Outer Head (Sig 2): {len(sig2)} counts | Non-zero: {sum(1 for x in sig2 if x > 0)}/32")
 
-        if hasattr(self._bnr, "GetSignature"):
-            # Head 0: Red Upper (00-11) & Black Lower (48-59)
+        raw_64 = sig1 + sig2
+        if len(raw_64) < 64:
+            raw_64.extend([0] * (64 - len(raw_64)))
+
+        # 7. Eject coupon and close session
+        try:
+            self.bnr.CashInRollback()
+        except Exception:
             try:
-                head0_arr = clean_array(self._bnr.GetSignature(System.UInt32(1)))
-                print(f"[SDK DIAG] Inner Head (Sig 1) extracted: {len(head0_arr)} counts")
-            except Exception as ex:
-                print(f"[SDK DIAG] Sig 1 note: {ex}")
+                self.bnr.CashInEnd()
+            except Exception:
+                pass
 
-            # Head 1: Green Lower (16-27) & Blue Upper (32-43)
-            try:
-                head1_arr = clean_array(self._bnr.GetSignature(System.UInt32(2)))
-                print(f"[SDK DIAG] Outer Head (Sig 2) extracted: {len(head1_arr)} counts")
-            except Exception as ex:
-                print(f"[SDK DIAG] Sig 2 note: {ex}")
-
-        head0_arr = (head0_arr + [0] * 32)[:32]
-        head1_arr = (head1_arr + [0] * 32)[:32]
-        full_64 = head0_arr + head1_arr
-
-        return HibouHeadSnapshot(channels=[
-            ChannelMeasure(channel_id=idx, raw_ad_count=val)
-            for idx, val in enumerate(full_64)
-        ])
+        channels = [
+            OpticalChannel(
+                channel_index=i,
+                raw_ad_count=raw_64[i],
+                board_group="RED" if i < 12 else ("GREEN" if i < 28 else ("BLUE" if i < 44 else "BLACK")),
+                track_type="TRANSMISSIVE" if i < 28 else "REFLECTIVE",
+            )
+            for i in range(len(raw_64))
+        ]
+        return OpticalSnapshot(channels=channels)
